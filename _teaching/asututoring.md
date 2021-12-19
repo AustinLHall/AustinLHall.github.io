@@ -7,10 +7,13 @@ venue: "ASU Beebe, Tutoring Services"
 date: 2015-01-01
 location: "Beebe, Arkansas"
 ---
+Course based tutoring for a variety of university courses.
+
+
 
 Description:
 ======
-Course based tutoring for a variety of university courses. University employed to provide tutoring assistance for any enrolled students in a variety of course disciplines and skill levels. 
+University employed to provide tutoring assistance for any enrolled students in a variety of course disciplines and skill levels. 
 ### Typical Courses:
 - Mathematics
   - Triginometry
