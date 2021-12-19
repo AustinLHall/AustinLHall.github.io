@@ -2,7 +2,7 @@
 title: "Teaching Assistant"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/teachingassistant
+permalink: /teaching/2014-spring-teaching
 venue: "ASU, Mathematics"
 date: 2017-01-01
 location: "Beebe, Arkansas"
