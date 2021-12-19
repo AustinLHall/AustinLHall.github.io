@@ -72,5 +72,7 @@ Service and leadership
 ======
 * Super Science Saturday
   * Community outreach for challenged youth
+* Student Instruction Mentor
+  * Mentored incoming student instruction employees
 * OpenSource UV Sanitation Chamber
   * Collaborated with HighSchool students for engineering competition
