@@ -13,7 +13,7 @@ Classroom based tutoring and instruction for College Algebra Students
 Overview
 ======
 
-* Spring 206: Student Instruction
+* Spring 2016: Student Instruction
   * Arkansas State University Beebe
   * Duties included: Instructing and Tutoring College Algebra Students
   * Supervisor: ASU Tutoring Services
