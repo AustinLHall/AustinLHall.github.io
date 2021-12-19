@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Austin Hall"
   avatar           : "profile.png"
-  bio              : "Undergraduate with an interest in Physics and Mathematics"
-  location         : "Arkansas"
-  employer         : "University of Central Arkansas"
+  bio              : "Physics and Mathematics Undergraduate"
+  location         : #"Arkansas"
+  employer         : "UCA"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            : "Austin.L.Hall@protonmail.com"
