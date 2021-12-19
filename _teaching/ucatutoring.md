@@ -7,10 +7,13 @@ venue: "University of Central Arkansas, UCA Tutoring Services"
 date: 2018-01-01 - 2022-05-01
 location: "Conway, Arkansas"
 ---
+Course based tutoring for a variety of university courses.
+
+
 
 Description:
 ======
-Course based tutoring for a variety of university courses. University employed to provide tutoring assistance for any enrolled students for a variety of course disciplines and skill levels. 
+University employed to provide tutoring assistance for any enrolled students for a variety of course disciplines and skill levels. 
 ### Typical Courses:
 - Mathematics
   - Triginometry
