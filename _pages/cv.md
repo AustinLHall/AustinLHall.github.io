@@ -17,14 +17,7 @@ Education
 
 Work experience
 ======
-* 2017: Teaching Assistant
-  * Arkansas State University-Beebe
-  * Description: Classroom Based Tutoring
 
-* Fall 2018: Student Instruction
-  * University of Central Arkansas
-  * Duties included: Planning and Holding additional class sessions
-  * Supervisor: UCA Tutoring Services
   
 Skills
 ======
