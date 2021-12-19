@@ -8,11 +8,10 @@ date: 2018-01-01
 location: "Conway, Arkansas"
 ---
 
-Course based supplemental instruction for chemistry course
 
 Experience Description
 ======
-Supplemental instruction for an introductory chemistry course.
+Supplemental instruction for an introductory chemistry course designed to provide additional examples and coverage of challenging subject material. Working closely with students and the instructor to maximize student performance.
 ### Typical Activities:
   - Attended Class Sessions
     - Took Notes on Current Material
