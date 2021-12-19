@@ -11,30 +11,38 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* A.S. in Health Science, Arkansas State University-Beebe, 2018
+* B.S. in Physics, Univeristy of Central Arkansas, 2022 (expected)
+  * Minor: Mathematics
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2017: Teaching Assistant
+  * Arkansas State University-Beebe
+  * Description: Classroom Based Tutoring
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Fall 2018: Student Instruction
+  * Univeristy of Central Arkansas
+  * Duties included: Planning and Holding additional class sessions
+  * Supervisor: UCA Tutoring Services
   
 Skills
 ======
-* Skill 1
-* Skill 2
+* STEM
+* Programming
   * Sub-skill 2.1
   * Sub-skill 2.2
   * Sub-skill 2.3
-* Skill 3
+
+Aptitudes
+======
+* Inquisitive
+* Complex Problem Solver
+* Open-minded
+* Mathematics
+* Data Acquisition and Analysis
+* Technical Writing and Document Creation
+* Tutoring/Mentoring
 
 Publications
 ======
@@ -42,7 +50,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Events and Presentations
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
