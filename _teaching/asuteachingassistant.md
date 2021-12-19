@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant"
+title: "Teaching Assistant - ASU"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/asuteachingassistant
