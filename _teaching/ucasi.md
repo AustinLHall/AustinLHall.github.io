@@ -1,5 +1,5 @@
 ---
-title: "Student Instruction"
+title: "Student Instruction - UCA"
 collection: teaching
 type: "Employment"
 permalink: /teaching/ucasi
