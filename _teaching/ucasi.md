@@ -7,9 +7,11 @@ venue: "University of Central Arkansas, UCA Tutoring Services"
 date: 2018-01-01
 location: "Conway, Arkansas"
 ---
+Supplemental Course Instruction
 
 
-Experience Description
+
+Description
 ======
 Supplemental instruction for an introductory chemistry course designed to provide additional examples and coverage of challenging subject material. Working closely with students and the instructor to maximize student performance.
 ### Typical Activities:
