@@ -22,17 +22,30 @@ Work experience
   * Description: Classroom Based Tutoring
 
 * Fall 2018: Student Instruction
-  * Univeristy of Central Arkansas
+  * University of Central Arkansas
   * Duties included: Planning and Holding additional class sessions
   * Supervisor: UCA Tutoring Services
   
 Skills
 ======
 * STEM
+  * Mechanical Design/Maintenance
+  * Electrial Design/Engineering
+  * Microcontrollers
+  * Robotics
+  * Computational Physics
+  * Thermodynamics
+  * E&M
+  * Classical & Quantum Mechanics
+  * BioPhysics
+  * Differential Equations
 * Programming
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
+  * Python
+  * Latex
+  * Bash
+  * C++
+  * Github
+
 
 Aptitudes
 ======
@@ -64,4 +77,7 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Super Science Saturday
+  * Community outreach for challenged youth
+* OpenSource UV Sanitation Chamber
+  * Collaborated with HighSchool students for engineering competition
