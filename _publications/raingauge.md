@@ -1,7 +1,7 @@
 ---
 title: "Capacitative Rain Gauge (2019)"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/rain-gauge
 excerpt: 'Measuring fluid level based on gauge capacitance'
 date: NA
 #venue: 'Journal 1'
