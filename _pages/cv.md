@@ -50,7 +50,7 @@ Aptitudes
 * Technical Writing and Document Creation
 * Tutoring/Mentoring
 
-Publications
+Projects
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
