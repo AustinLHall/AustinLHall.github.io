@@ -1,5 +1,5 @@
 ---
-title: "Capacitative Rain Gauge"
+title: "Capacitative Rain Gauge (2019)"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'Measuring fluid level based on gauge capacitance'
