@@ -8,8 +8,5 @@ date: 2009-10-01
 #paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 #citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
-Designed and conducted experiments to quantify the effects of radation exposure on ion channel functionality.
+Research assistanship in the BioPhysics laboratory at the University of Central Arkansas. Designed and conducted experiments to quantify the effects of radation exposure on ion channel functionality.
 
-#[Download paper here](http://academicpages.github.io/files/paper1.pdf)
-
-#Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
