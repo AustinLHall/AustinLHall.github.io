@@ -12,8 +12,8 @@
   }
 nav{
     width: 100vw;
-    height: 10vh;
-    background-color: rgba(0, 0, 0, 0.05);
+    height: 5vh;
+    background-color: rgba(0, 0, 0, 0.01);
     line-height: 4vh;
   }
   nav ul{
@@ -31,7 +31,7 @@ nav{
         nav ul li a{
             text-decoration: none;
             color: #fff;
-            padding: 1.5vw;
+            padding: 2vw;
           }
 
           nav ul li.active {
@@ -54,7 +54,7 @@ div.slide-right {
     }
   div.slide-right div.inner {
         animation: slide-right 5s;
-        margin-top: 5%;
+        margin-top: 5vh;
         margin-left: var(--left-margin);
       }
       
@@ -69,8 +69,28 @@ div.slide-right {
         }
 
 
-
+div.slide-left {
+      width:100%;
+      overflow:hidden;
+    }
+  div.slide-left div.inner {
+        animation: slide-left 5s;
+        margin-top:5%;
+        margin-left: var(--left-margin);
+      }
         
+        @keyframes slide-left {
+          from {
+            margin-left: 100%;
+          }
+        
+          to {
+            margin-left: var(--left-margin);
+          }
+        }
+
+
+
 
 #container {
         display: inline-block;
@@ -83,3 +103,19 @@ div.slide-right {
         font-family: impact;
         font-size: var(--verticle-size);
       }
+
+
+
+.divider {
+        border-bottom: 1px solid #FFF;
+        background-color: #DADADA;
+        height: 0.25vh;
+        margin: 0.5em 0px 1.5em;
+    }
+    
+.divider span {
+        display: block;
+        width: 50px;
+        height: 1px;
+        background-color: #F60;
+    }
