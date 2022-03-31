@@ -68,14 +68,18 @@ div.slide-right {
           }
         }
 
+
+
+        
+
 #container {
         display: inline-block;
-        background-color: green;
+        background-color: rgba(255, 255, 255, 0.0001);
         padding: 0.5vw 1vw;
       }
 .divtext {
         display: table;
         color: white;
         font-family: impact;
-        font-size: 4.2vw;
+        font-size: var(--verticle-size);
       }
