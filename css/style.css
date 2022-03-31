@@ -67,3 +67,15 @@ div.slide-right {
             margin-left: var(--left-margin);
           }
         }
+
+#container {
+        display: inline-block;
+        background-color: green;
+        padding: 0.5vw 1vw;
+      }
+.divtext {
+        display: table;
+        color: white;
+        font-family: impact;
+        font-size: 4.2vw;
+      }
