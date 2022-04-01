@@ -70,18 +70,18 @@ div.slide-right {
 
 
 div.slide-left {
-      width:100%;
+      width:100vw;
       overflow:hidden;
     }
   div.slide-left div.inner {
         animation: slide-left 5s;
-        margin-top:5%;
+        margin-top: 15vh;
         margin-left: var(--left-margin);
       }
         
         @keyframes slide-left {
           from {
-            margin-left: 100%;
+            margin-left: 92vw;
           }
         
           to {
