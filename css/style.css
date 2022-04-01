@@ -82,7 +82,7 @@ div.slide-left {
         
         @keyframes slide-left {
           from {
-            margin-left: 92vw;
+            margin-left: 90vw;
           }
         
           to {
