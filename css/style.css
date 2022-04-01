@@ -76,7 +76,7 @@ div.slide-left {
     }
   div.slide-left div.inner {
         animation: slide-left 5s;
-        margin-top: 10vh;
+        margin-top: 15vh;
         margin-left: var(--left-margin);
       }
         
