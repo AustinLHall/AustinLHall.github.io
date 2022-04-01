@@ -17,7 +17,7 @@ nav{
     line-height: 4vh;
   }
   nav ul{
-      float: right;
+      float: var(--align-loc);
       margin-right: 1vw;
     }
     nav ul li{
@@ -55,7 +55,7 @@ div.slide-right {
     }
   div.slide-right div.inner {
         animation: slide-right 5s;
-        margin-top: 10vh;
+        margin-top: var(--top-margin);
         margin-left: var(--left-margin);
       }
       
