@@ -23,6 +23,7 @@ nav{
     nav ul li{
         list-style-type: none;
         display: inline-block;
+        border-radius: 5vw;
         transition: 0.7s all;
       }
       nav ul li:hover{
@@ -60,7 +61,7 @@ div.slide-right {
       
     @keyframes slide-right {
           from {
-            margin-left: -100%;
+            margin-left: -30vw;
           }
         
           to {
