@@ -23,7 +23,7 @@ nav{
     nav ul li{
         list-style-type: none;
         display: inline-block;
-        border-radius: 5vw;
+        border-radius: 2vw;
         transition: 0.7s all;
       }
       nav ul li:hover{
@@ -55,7 +55,7 @@ div.slide-right {
     }
   div.slide-right div.inner {
         animation: slide-right 5s;
-        margin-top: 5vh;
+        margin-top: 10vh;
         margin-left: var(--left-margin);
       }
       
