@@ -76,7 +76,7 @@ div.slide-left {
     }
   div.slide-left div.inner {
         animation: slide-left 5s;
-        margin-top: 15vh;
+        margin-top: var(--top-margin);
         margin-left: var(--left-margin);
       }
         
@@ -91,7 +91,25 @@ div.slide-left {
         }
 
 
-
+div.slide-up {
+      width:100vw;
+      overflow:hidden;
+    }
+  div.slide-up div.inner {
+        animation: slide-up 5s;
+        margin-top: 0vh;
+        margin-left: 0vw;
+      }
+        
+        @keyframes slide-up {
+          from {
+            margin-top: 101vh;
+          }
+        
+          to {
+            margin-top: 0vh;
+          }
+        }
 
 #container {
         display: inline-block;
@@ -120,3 +138,45 @@ div.slide-left {
         height: 1px;
         background-color: #F60;
     }
+
+  
+  .waviy1 {
+    position: relative;
+  }
+  .waviy1 span {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 5s infinite;
+    animation-delay: calc(.6s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+    
+  .waviy2 {
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+    font-size: 60px;
+  }
+  .waviy2 span {
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    
+  }
+  @keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }

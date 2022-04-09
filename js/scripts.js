@@ -1,59 +1,70 @@
-/*!
-* Start Bootstrap - Creative v7.0.6 (https://startbootstrap.com/theme/creative)
-* Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
-*/
-//
-// Scripts
-// 
+function setupTypewriter(t) {
+    var HTML = t.innerHTML;
 
-window.addEventListener('DOMContentLoaded', event => {
+    t.innerHTML = "";
 
-    // Navbar shrink function
-    var navbarShrink = function () {
-        const navbarCollapsible = document.body.querySelector('#mainNav');
-        if (!navbarCollapsible) {
-            return;
-        }
-        if (window.scrollY === 0) {
-            navbarCollapsible.classList.remove('navbar-shrink')
-        } else {
-            navbarCollapsible.classList.add('navbar-shrink')
+    var cursorPosition = 0,
+        tag = "",
+        writingTag = false,
+        tagOpen = false,
+        typeSpeed = 100,
+    tempTypeSpeed = 0;
+
+    var type = function() {
+    
+        if (writingTag === true) {
+            tag += HTML[cursorPosition];
         }
 
-    };
-
-    // Shrink the navbar 
-    navbarShrink();
-
-    // Shrink the navbar when page is scrolled
-    document.addEventListener('scroll', navbarShrink);
-
-    // Activate Bootstrap scrollspy on the main nav element
-    const mainNav = document.body.querySelector('#mainNav');
-    if (mainNav) {
-        new bootstrap.ScrollSpy(document.body, {
-            target: '#mainNav',
-            offset: 74,
-        });
-    };
-
-    // Collapse responsive navbar when toggler is visible
-    const navbarToggler = document.body.querySelector('.navbar-toggler');
-    const responsiveNavItems = [].slice.call(
-        document.querySelectorAll('#navbarResponsive .nav-link')
-    );
-    responsiveNavItems.map(function (responsiveNavItem) {
-        responsiveNavItem.addEventListener('click', () => {
-            if (window.getComputedStyle(navbarToggler).display !== 'none') {
-                navbarToggler.click();
+        if (HTML[cursorPosition] === "<") {
+            tempTypeSpeed = 0;
+            if (tagOpen) {
+                tagOpen = false;
+                writingTag = true;
+            } else {
+                tag = "";
+                tagOpen = true;
+                writingTag = true;
+                tag += HTML[cursorPosition];
             }
-        });
-    });
+        }
+        if (!writingTag && tagOpen) {
+            tag.innerHTML += HTML[cursorPosition];
+        }
+        if (!writingTag && !tagOpen) {
+            if (HTML[cursorPosition] === " ") {
+                tempTypeSpeed = 0;
+            }
+            else {
+                tempTypeSpeed = (Math.random() * typeSpeed) + 50;
+            }
+            t.innerHTML += HTML[cursorPosition];
+        }
+        if (writingTag === true && HTML[cursorPosition] === ">") {
+            tempTypeSpeed = (Math.random() * typeSpeed) + 50;
+            writingTag = false;
+            if (tagOpen) {
+                var newSpan = document.createElement("span");
+                t.appendChild(newSpan);
+                newSpan.innerHTML = tag;
+                tag = newSpan.firstChild;
+            }
+        }
 
-    // Activate SimpleLightbox plugin for portfolio items
-    new SimpleLightbox({
-        elements: '#portfolio a.portfolio-box'
-    });
+        cursorPosition += 1;
+        if (cursorPosition < HTML.length - 1) {
+            setTimeout(type, tempTypeSpeed);
+        }
 
-});
+    };
+
+    return {
+        type: type
+    };
+}
+
+var typer = document.getElementById('typewriter');
+
+typewriter = setupTypewriter(typewriter);
+
+typewriter.type();
